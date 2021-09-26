@@ -15,5 +15,5 @@ if(event ==='touchstart') event.preventDefault( );
     }
 }
     btnMobile.addEventListener('click', toggleMenu);
-    btnMobile.addEventListener('touchstart', toggleMenu);
-   document.addEventListener('touchstart', toggleMenu, {passive: true});
+    btnMobile.addEventListener('touchstart', toggleMenu,{passive: true});
+   /*document.addEventListener('touchstart', toggleMenu, {passive: true});
