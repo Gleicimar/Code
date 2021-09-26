@@ -1,69 +1,78 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="css/style.css">
-    <title>Document</title>
+    <script src="js/sript.js" defer="defer"></script>
+    <title>Code</title>
 </head>
 <body>
-    <header>
-        <div class="container">
-                <a href="" class="logo"></a>
-                <nav id="menu">
-                    <ul>
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#">Home</a></li>
-                    </ul>
-                </nav>
-        </div><!--container-->
-    </header>
-    <section class="banner">
-        <h2>Criamos a melhor solução <span>Web </span>  <br>
-            possível, para você surpreender seus clientes</h2>
-        <a href="">Faça um orçamento</a>
-    </section>
-<section class="trabalhos">
-    <h2>Ultimos trabalhos</h2>
-
-    <div class="container">
-            <div class="trabalhos-wrapper">
-            <div class="trabalho-img"></div>
-               <h2>cliente 1</h2>
-            </div>
-
-            <div class="trabalhos-wrapper">
-                <div class="trabalho-img"></div>
-                   <h2>cliente 1</h2>
-                </div>
-
-                <div class="trabalhos-wrapper">
-                    <div class="trabalho-img"></div>
-                       <h2>cliente 1</h2>
-                    </div>
-    </div>
-</section>
-<section class="tecnologias">
-<h2>Tecnologias</h2>
-    <div class="container">
-<div class="tecnologia-wrapper">
-<div class="tecnologia-img"></div>
-<h2>Html 5</h2>
+<header>
+<div class="container">
+    <a href="" class="logo">Logo</a>
+    <nav id="nav">
+<button aria-label="Abrir Menu" id='btn' aria-haspopup="true"  aria-controls="menu" aria-expanded="false"><span id="hamburger"></span></button>
+        <ul id="menu" role="menu">
+                <li><a href="">Home</a></li>
+                <li><a href="">Produto</a></li>
+                <li><a href="">Serviços</a></li>
+                <li><a href="">Contato</a></li>
+        </ul>
+    </nav>
+</div><!--container-->
+</header>
+<section class="chamada">
+<div class="container">
+<h2>Desenvolvemos a melhor solução <span>Web</span> para que possa <br> atender a demanda de seus  clientes.  </h2>
+<button id="contato" type="submit">Faça um orçamento</button>
 </div>
-<div class="tecnologia-wrapper">
-    <div class="tecnologia-img"></div>
-    <h2>CSS3</h2>
-    </div>
-    <div class="tecnologia-wrapper">
-        <div class="tecnologia-img"></div>
-        <h2>Javascript</h2>
-        </div>
+</section><!--chamada-->
+<section class="diferenciais">
+    <h2>Tecnologias</h2>
+<div class="container">
+
+        <div class="tecnologias-wraper">
+        <div class="tecnologia">
+        <h3 class="html"><i class="fab fa-html5"></i></h3>
+        <p>Html 5</p>
+        </div><!--tecnologia-->
+        </div><!--tecnologia-wraper-->
+        <div class="tecnologias-wraper">
+            <div class="tecnologia">
+            <h3 class="css"><i class="fab fa-css3-alt"></i>
+            </h3>
+            <p>Css3</p>
+            </div><!--tecnologia-->
+            </div><!--tecnologia-wraper-->
+            <div class="tecnologias-wraper">
+                <div class="tecnologia">
+                <h3 class="js"><i class="fab fa-js-square"></i>
+                </h3>
+                <p>Javascript</p>
+                </div><!--tecnologia-->
+                </div><!--tecnologia-wraper-->
+</div>
+</section><!--diferenciais-->
+<section class="contato">
+<h2>Contato</h2>
+<div class="container">
+    <div class="contato-wraper">
+    <form action="" method="post">
+        <input type="text" name="nome" placeholder="nome">
+    <input type="email" placeholder="Seu email aqui" name="email">
+    <textarea name="mensagem" placeholder="Mensagem"></textarea>
+    <input type="submit" name="acao" value="cadastrar">
+    </form>
+    </div><!--contato-wraper-->
+</div>
 </section>
 <footer>
-    <p>Desenvolvido por Gleicimar  todos os direitos reservados</p>
+<div class="container">
+<p>Todos os direitos reservados 2021</p>
+</div>
 </footer>
 </body>
 </html>
